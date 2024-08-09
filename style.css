@@ -125,7 +125,7 @@ main{
 .mensaje{
     align-items: center;
     background: var(--white);
-    background-image: url("/imagenes/astronauta.png");
+    background-image: url("./imagenes/astronauta.png");
     background-repeat: no-repeat;
     background-size:contain;
     background-position: center;
