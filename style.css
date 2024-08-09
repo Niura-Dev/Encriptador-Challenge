@@ -1,0 +1,329 @@
+:root{
+    --white:#FFFFFF;
+    --dark-purple:#35356C;
+    --light-purpe:#8175C1;
+}
+
+*{
+    background: var(--dark-purple);
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 150%;
+    color: var(--white);
+    }
+
+body{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content:left;
+    align-items:center;
+    width: 100%;    
+    height: 90px;
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 6%;
+}
+
+.titulo{
+    margin-left: 30px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+main{
+    display: flex;
+    margin: 0;
+    margin-left: 50px;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.text-area{
+    border: none;
+    color: var(--white);
+    margin-top: 50px;
+    text-transform: lowercase;
+    resize: none;
+    width: 80%;
+    max-width: 500px;
+    margin: 20px auto;
+    margin-left: 30px;
+    height: 470px;
+}
+
+::placeholder{ color: var(--white);}
+.text-area:focus{
+    outline: none;
+}
+
+.indicaciones{
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+}
+
+.icono{
+    padding-top: 20px;
+    margin-left: 10px;
+    width: 3%;
+}
+
+.tx-indicaciones{
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 18px;
+    margin-left: 30px;
+}
+
+.btn-encriptar,
+.btn-desencriptar{
+    border: none;
+    border-radius: 1.5rem;
+    height: 67px;
+    margin-left: 30px;
+    width: 48%;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.btn-encriptar{
+    background-color: var(--light-purpe);
+    color: var(--white);
+    }
+
+.btn-desencriptar{
+    background-color: var(--white);
+    color: var(--dark-purple);
+}
+
+.encriptador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 400px;
+}
+
+.mensaje{
+    align-items: center;
+    background: var(--white);
+    background-image: url("/imagenes/astronauta.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    resize: none;
+    border: none;
+    border-radius: 1.5rem;
+    color: var(--dark-purple);
+    margin-left: 2.5rem;
+    margin-right: 20px;
+    width: 80%;
+    height: 640px;
+    max-width: 500px;
+    text-align: center;
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.btn-copiar{
+    background-color: var(--light-purpe);
+    border: none;
+    border-radius: 1.5rem;
+    color: var(--white);
+    height: 67px;
+    width: 48%;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    font-weight: 500;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.footer{
+    text-align: center;
+    background-color: var(--light-purpe);
+    height: 40px;
+}
+
+@media (width <= 991px){
+    main{
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+    }
+    .logo{
+        width: 12%;
+        height: auto;
+    }
+    .titulo{
+        font-size: 1.6rem;
+    }
+    .text-area{
+        width: 100%;
+        margin-left: 2rem;
+    }
+    .indicaciones{
+        width: auto;
+        margin-left: 2rem;
+    }
+    .botones{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin-left: auto;
+    }
+    .btn-encriptar,
+    .btn-desencriptar{
+        width: 48%;
+        height: 3.5rem;
+        aspect-ratio: 1/1;
+        font-size: 1rem;
+    }
+    .encriptador{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .mensaje{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+    .btn-copiar{
+        width: 48%;
+        height: 3.5rem;
+        aspect-ratio: 1/1;
+        font-size: 1rem;
+    }
+    .footer{
+        font-size: 1.1rem;
+        width: 100%;
+        text-align: center;
+    }
+    
+}
+
+@media (481px <= width <= 768px){
+    main{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 10px;
+    }
+    
+    .text-area{
+        width: 100%;
+        margin-left: 1rem;
+    }
+    .botones{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+    .btn-encriptar,
+    .btn-desencriptar{
+        flex-direction: row;
+        width: 48%;
+        height: 4.1875rem;
+        aspect-ratio: 1/1;
+    }
+    .encriptador{
+        width: 100%;
+    }
+    .btn-copiar{
+        width: 150px;
+    }
+    .mensaje{
+        background-image: none;
+        width:90%;
+    }
+    
+    .footer{
+        font-size: 1rem;
+        width: 100%;
+    }
+}
+
+@media (320px <= width <= 480px){
+    main{
+        flex-direction: column;
+        margin-left: 20px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 10px;
+    }
+    .logo{
+        width: 15%;
+        height: auto;
+    }
+    .titulo{
+        font-size: 1.25rem;
+    }
+    .text-area{
+        width: 100%;
+        margin-left: auto;
+    }
+    .botones{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 10px;
+    }
+    .btn-encriptar,
+    .btn-desencriptar{
+        width: 50%;
+        height: 4rem;
+        aspect-ratio: 0.5/0.5;
+    }
+    .encriptador{
+        width: 90%;
+        margin left: 1rem;
+    }
+        .mensaje{
+        background-image: none;
+        width:auto;
+        text-align: center;
+    }
+    .btn-copiar{
+        width: 100%;
+    }
+    .footer{
+        font-size: 0.8rem;
+        width: 100%;
+    }
+}
