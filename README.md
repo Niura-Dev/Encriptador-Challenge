@@ -8,7 +8,7 @@
 <h2>Funcionalidades:</h2>
 <p>Encriptación: el usuario ingresa un texto en un campo de entrada. La aplicación reemplaza cada vocal del texto por un símbolo específico, creando un texto encriptado.</p>
 <p>Desencriptación: el usuario puede pegar el texto encriptado para revertir el proceso de encriptación, devolviendo el texto a su estado original.</p>
-<p>Interfaz sencilla: la palicación presenta una interfaz gráfica amigable con dos campos de entrada para el texto original y el texto encriptado, botones para encriptar, desencriptar y copiar.</p>
+<p>Interfaz sencilla: la palicación presenta una interfaz gráfica amigable con dos campos de texto, uno de entrada y uno de texto encriptado, botones para encriptar, desencriptar y copiar.</p>
 
 <h2>Tecnologías</h2>
 <p>HTML: Se utiliza para estructurar la página web y los elementos de la interfaz.</p>
