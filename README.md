@@ -3,7 +3,7 @@
 ![PaginaWebEncriptador](https://github.com/user-attachments/assets/55bbaff9-58b5-4b0a-9ebf-9f23ff6a6bf3)
 
 <h2>Encriptador de texto básico</h2>
-<p>Esta aplicación web, desarrollada con HTML, CSS Y Java Script, permite encriptar y desencriptar textos utilizando un método de sustitución de cocales.</p>
+<p>Esta aplicación web, desarrollada con HTML, CSS Y Java Script, permite encriptar y desencriptar textos utilizando un método de sustitución de vocales.</p>
 
 <h2>Funcionalidades:</h2>
 <p>Encriptación: el usuario ingresa un texto en un campo de entrada. La aplicación reemplaza cada vocal del texto por un símbolo específico, creando un texto encriptado.</p>
