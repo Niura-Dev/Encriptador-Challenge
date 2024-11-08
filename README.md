@@ -1,6 +1,6 @@
 <h1 align="center"> Challenge Encriptador de Texto </h1>
 
-![PaginaWebEncriptador](https://github.com/user-attachments/assets/55bbaff9-58b5-4b0a-9ebf-9f23ff6a6bf3)
+
 
 <h2>Encriptador de texto básico</h2>
 <p>Esta aplicación web, desarrollada con HTML, CSS Y Java Script, permite encriptar y desencriptar textos utilizando un método de sustitución de vocales.</p>
