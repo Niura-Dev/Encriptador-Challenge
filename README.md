@@ -1,6 +1,6 @@
 <h1 align="center"> Challenge Encriptador de Texto </h1>
 
-![Encriptador de texto]https://niura-dev.github.io/Encriptador-Challenge/.jpg
+![Encriptador de texto](https://github.com/user-attachments/assets/3d2dd07e-6988-4ff8-b7f2-26b843534230)
 
 <h2>Encriptador de texto básico</h2>
 <p>Esta aplicación web, desarrollada con HTML, CSS Y Java Script, permite encriptar y desencriptar textos utilizando un método de sustitución de vocales.</p>
