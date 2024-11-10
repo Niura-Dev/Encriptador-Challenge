@@ -14,4 +14,4 @@
 <p>HTML: Se utiliza para estructurar la página web y los elementos de la interfaz.</p>
 <p>CSS: Para dar estilo a la página web y crear una apariencia visual atractiva.</p>
 <p>JAVA SCRIPT: Usado para implementar la lógica de encriptación y desencriptación, manejar la interacción del usuario y actualizar la interfaz.</p>
-<p>Autora: https://github.com/Niura-Dev</p>
+[Visita mi encriptador](https://niura-dev.github.io/Encriptador-Challenge/)
